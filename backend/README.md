@@ -1,0 +1,1 @@
+# Flying Chopper Animation Project This project generates a flying chopper using SVG and CSS for animations, colors, and other effects. The backend is built with Node.js and Express, and MongoDB is used for data storage.
