@@ -1,0 +1,1 @@
+const express = require('express'); const { getChoppers, createChopper, deleteChopper } = require('../controllers/chopperController'); const router = express.Router(); router.get('/', getChoppers); router.post('/', createChopper); router.delete('/:id', deleteChopper); module.exports = router;
