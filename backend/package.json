@@ -1,0 +1,1 @@
+{"name": "flying-chopper", "version": "1.0.0", "description": "A flying chopper animation project", "main": "server.js", "scripts": { "start": "node server.js" }, "keywords": ["node", "express", "mongo", "svg", "css"], "author": "", "license": "ISC", "dependencies": { "express": "^4.17.1", "mongoose": "^5.10.9", "dotenv": "^8.2.0" } }
