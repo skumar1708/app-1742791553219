@@ -1,0 +1,13 @@
+.app-container {display: flex;flex-direction: column;min-height: 100vh;}.header {background-color: #4CAF50;color: white;padding: 1rem;text-align: center;}.footer {background-color: #4CAF50;color: white;padding: 1rem;text-align: center;margin-top: auto;}.chopper-container {display: flex;justify-content: center;align-items: center;flex: 1;}.chopper {animation: fly 2s infinite alternate;}.chopper circle {animation: rotate 1s linear infinite;}.chopper polygon {animation: rotate-blades 1s linear infinite;}
+@keyframes fly {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-50px);}
+}
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+@keyframes rotate-blades {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
