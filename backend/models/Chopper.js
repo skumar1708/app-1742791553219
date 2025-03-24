@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); const chopperSchema = new mongoose.Schema({ name: { type: String, required: true }, color: { type: String, required: true }, animation: { type: String, required: true } }); const Chopper = mongoose.model('Chopper', chopperSchema); module.exports = Chopper;
